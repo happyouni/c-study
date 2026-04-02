@@ -23,7 +23,7 @@ int main(void)
 	int* pi;// 포인터변수
 
 	pi = &x;//
-	printf("pi = %p\n", pi);//
+	printf("pi = %p\n", pi);
 	printf("*pi = %d\n", *pi);//10
 
 	pi = &y; //
