@@ -14,6 +14,7 @@ int main(void)
 	printf("%d\n", q);
 
 	arr_prn(c);//함수 호출
+	printf("%d", c[0]);
 	return 0;
 }
 
@@ -34,4 +35,5 @@ int add(int x, int y) //매개변수: 형을 선언
   {
       for(int i=0; i<5; i++)
 		   printf("%d\n", d[i]);
+	  d[0] = 1000;
    }
